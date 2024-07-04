@@ -1,4 +1,4 @@
-package currency;
+package com.api;
 
 import java.util.Map;
 

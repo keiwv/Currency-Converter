@@ -20,7 +20,7 @@ public class Menu {
 
     private void options() {
         System.out.println("*************************************");
-        System.out.println("Sea bienvenido/a al conversor de monedas!\n\n");
+        System.out.println("Sea bienvenido/a al conversor de monedas!\n");
         System.out.println("1) Dólar =>> Peso Argentino");
         System.out.println("2) Peso Argentino =>> Dólar");
         System.out.println("3) Dólar =>> Real brasileño");
