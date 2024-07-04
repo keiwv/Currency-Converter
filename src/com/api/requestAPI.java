@@ -33,16 +33,4 @@ public class requestAPI {
         }
     }
 
-    public static void main(String[] args) {
-        requestAPI api = new requestAPI();
-        String baseCurrency = "USD";
-        String targetCurrency = "ZWL";
-        Double rate = api.getCurrency(baseCurrency, targetCurrency, 10);
-
-        if (rate != null) {
-            System.out.println("Exchange Rate (" + baseCurrency + " to " + targetCurrency + "): " + rate);
-        } else {
-            System.out.println("Failed to fetch the exchange rate.");
-        }
-    }
 }
